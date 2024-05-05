@@ -5,8 +5,9 @@
     font-family: sans-serif;
 }
 
-body {
+.body {
     background-color: black;
+    display: flex;
 }
 
 .logo {
@@ -17,20 +18,20 @@ body {
     justify-content: left;
 }
 
-.sidebar1 {
+.lsidebar {
     width: 15%;
     min-height: 100vh;
     border-right: 1px solid rgb(65, 64, 64);
 }
 
-.sidebar-row {
+.lsidebar-row {
     display: flex;
     padding: 15px;
     color: white;
     font-size: 0.7em;
 }
 
-.sidebar-icons {
+.lsidebar-icons {
     padding: 0;
     padding-right: 25px;
     font-size: 1.3em;
@@ -46,4 +47,18 @@ body {
     background-color: #1D9BF0;
     color: white;
     font-size: 1em;
+}
+
+.rsidebar {
+    width: 30%;
+    min-height: 100vh;
+    border-left: 1px solid rgb(65, 64, 64);
+    color: white;
+    float: right;
+}
+
+.main-page {
+    width: 55%;
+    min-height: 100vh;
+    color: white;
 }

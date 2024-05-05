@@ -1,9 +1,13 @@
-import Sidebar1 from "./Sidebar1"
+import LSidebar from "./LSidebar";
+import MainPage from "./MainPage"
+import RSidebar from "./RSidebar";
 
 function App() {
   return (
-    <div>
-      <Sidebar1 />
+    <div className="body">
+      <LSidebar />
+      <MainPage />
+      <RSidebar />
     </div>
   )
 }

@@ -2,13 +2,13 @@ import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // eslint-disable-next-line react/prop-types
-function SidebarRow({ text, icon }) {
+function LSidebarRow({ text, icon }) {
     return (
-        <div className="sidebar-row">
-            <FontAwesomeIcon icon={icon} className='sidebar-icons'/>
+        <div className="lsidebar-row">
+            <FontAwesomeIcon icon={icon} className='lsidebar-icons'/>
             <h2>{text}</h2>
         </div>
     )
 }
 
-export default SidebarRow
+export default LSidebarRow
