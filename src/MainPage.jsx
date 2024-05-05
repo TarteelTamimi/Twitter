@@ -1,8 +1,13 @@
+import Nav from "./Nav"
+import Profile from "./Profile"
+import Activities from "./Activities"
 
 function MainPage() {
   return (
     <div className="main-page">
-        <h1>This is the main page</h1>
+        <Nav title="React" postsNo="2,611" />
+        <Profile />
+        <Activities />
     </div>
   )
 }
