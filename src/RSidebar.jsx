@@ -1,9 +1,13 @@
-
+import Search from "./Search"
+import YouMightLike from "./YouMightLike"
+import TrendsForYou from "./TrendsForYou"
 
 function RSidebar() {
   return (
     <div className="rsidebar">
-        <h2>Right Sidebar</h2>
+        <Search />
+        <YouMightLike />
+        <TrendsForYou />
     </div>
   )
 }
