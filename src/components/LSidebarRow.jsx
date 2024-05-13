@@ -1,4 +1,3 @@
-import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // eslint-disable-next-line react/prop-types
